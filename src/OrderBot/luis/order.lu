@@ -1,0 +1,9 @@
+# Order
+- I would like to order a {product=cheeseburger}
+- Order {product=hamburger}
+- I would like to place an order for {product=fries}
+- Place an order for {product=cheesburger}
+- Put me down for a {product=hamburger}
+- Put me down for an {product=drink}
+- I would like to buy a {product=hamburger}
+- Add {product=cheeseburger} to my order

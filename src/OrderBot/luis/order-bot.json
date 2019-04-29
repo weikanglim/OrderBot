@@ -1,0 +1,163 @@
+{
+  "intents": [
+    {
+      "name": "Order"
+    },
+    {
+      "name": "Products"
+    }
+  ],
+  "entities": [
+    {
+      "name": "product",
+      "roles": []
+    }
+  ],
+  "composites": [],
+  "closedLists": [],
+  "regex_entities": [],
+  "model_features": [],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "I would like to order a cheeseburger",
+      "intent": "Order",
+      "entities": [
+        {
+          "entity": "product",
+          "startPos": 24,
+          "endPos": 35
+        }
+      ]
+    },
+    {
+      "text": "Order hamburger",
+      "intent": "Order",
+      "entities": [
+        {
+          "entity": "product",
+          "startPos": 6,
+          "endPos": 14
+        }
+      ]
+    },
+    {
+      "text": "I would like to place an order for fries",
+      "intent": "Order",
+      "entities": [
+        {
+          "entity": "product",
+          "startPos": 35,
+          "endPos": 39
+        }
+      ]
+    },
+    {
+      "text": "Place an order for cheesburger",
+      "intent": "Order",
+      "entities": [
+        {
+          "entity": "product",
+          "startPos": 19,
+          "endPos": 29
+        }
+      ]
+    },
+    {
+      "text": "Put me down for a hamburger",
+      "intent": "Order",
+      "entities": [
+        {
+          "entity": "product",
+          "startPos": 18,
+          "endPos": 26
+        }
+      ]
+    },
+    {
+      "text": "Put me down for an drink",
+      "intent": "Order",
+      "entities": [
+        {
+          "entity": "product",
+          "startPos": 19,
+          "endPos": 23
+        }
+      ]
+    },
+    {
+      "text": "I would like to buy a hamburger",
+      "intent": "Order",
+      "entities": [
+        {
+          "entity": "product",
+          "startPos": 22,
+          "endPos": 30
+        }
+      ]
+    },
+    {
+      "text": "Add cheeseburger to my order",
+      "intent": "Order",
+      "entities": [
+        {
+          "entity": "product",
+          "startPos": 4,
+          "endPos": 15
+        }
+      ]
+    },
+    {
+      "text": "what is the price of a cheeseburger?",
+      "intent": "Products",
+      "entities": [
+        {
+          "entity": "product",
+          "startPos": 23,
+          "endPos": 34
+        }
+      ]
+    },
+    {
+      "text": "how much does a hamburger cost?",
+      "intent": "Products",
+      "entities": [
+        {
+          "entity": "product",
+          "startPos": 16,
+          "endPos": 24
+        }
+      ]
+    },
+    {
+      "text": "price of a cheeseburger",
+      "intent": "Products",
+      "entities": [
+        {
+          "entity": "product",
+          "startPos": 11,
+          "endPos": 22
+        }
+      ]
+    },
+    {
+      "text": "cost of fries",
+      "intent": "Products",
+      "entities": [
+        {
+          "entity": "product",
+          "startPos": 8,
+          "endPos": 12
+        }
+      ]
+    }
+  ],
+  "patterns": [],
+  "patternAnyEntities": [],
+  "prebuiltEntities": [],
+  "luis_schema_version": "3.0.0",
+  "versionId": "0.1",
+  "name": "order",
+  "desc": "",
+  "culture": "en-us"
+}

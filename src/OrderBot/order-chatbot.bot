@@ -1,0 +1,26 @@
+{
+    "name": "order-chatbot",
+    "description": "",
+    "services": [
+        {
+          "type": "endpoint",
+          "appId": "",
+          "appPassword": "",
+          "endpoint": "http://localhost:7978/api/messages",
+          "name": "development",
+          "id": "3"
+        },
+        {
+            "type": "luis",
+            "appId": "<your deployed LUIS app id>",
+            "authoringKey": "<your deployed LUIS auth key>",
+            "version": "0.1",
+            "region": "<deployed LUIS app location>",
+            "name": "BotLuisApplication",
+            "id": "6"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0",
+    "overrides": null
+}
